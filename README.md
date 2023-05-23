@@ -127,7 +127,7 @@ To install and use the YOLOv8 algorithm, follow these instructions:
    ![train directory](./image/Aspose.Words.6e6b9928-8ec9-4154-9519-82ec9d040593.024.png)
 
    **Figure 19:** The train directory
-6. Performing Detection (Prediction) with Trained Model
+6. **Performing Detection (Prediction) with Trained Model**
 
    To use the trained model on any arbitrary image, use the following command:
 
@@ -153,6 +153,12 @@ To install and use the YOLOv8 algorithm, follow these instructions:
    ![Input data types](./image/Aspose.Words.6e6b9928-8ec9-4154-9519-82ec9d040593.028.png)
 
    Figure 21: Overview of different input data types supported by YOLOv8 for prediction
+   
+   Predict on sample.jpg => sameple_predict.jpg
+   ![sample](./sample.jpg) ![sample_predict](./sample_predict.jpg)
+   
+   Predict on URL [link](https://www.youtube.com/watch?v=MsXdUtlDVhk)
+   Result: https://youtu.be/B8HJfROv_jM
 
    This step concludes the tutorial on using YOLOv8. For the project's objective, you only need to apply the provided instructions for the human data (with    some necessary modifications) and proceed to step 7.
 7. **OPTIONAL**: This section will discuss some additional aspects of YOLOv8, including parameters in the training command, model evaluation, and data labeling.
